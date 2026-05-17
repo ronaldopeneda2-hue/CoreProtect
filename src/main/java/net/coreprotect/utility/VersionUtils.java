@@ -104,7 +104,7 @@ public class VersionUtils {
     }
 
     public static boolean isCommunityEdition() {
-        return !isBranch("edge") && !isBranch("coreprotect") && !validDonationKey();
+        return true;
     }
 
     public static boolean isBranch(String branch) {
